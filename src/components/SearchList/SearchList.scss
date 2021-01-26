@@ -1,0 +1,24 @@
+.search-list {
+  margin: 0;
+  padding: 0 20px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  grid-area: Content;
+
+  li {
+    display: flex;
+    flex-basis: 100%;
+    margin-bottom: 20px;
+
+    @media screen and (min-width: 992px) {
+      flex-basis: 48%;
+    }
+
+    .search-item {
+      flex-basis: 100%;
+    }
+  }
+}

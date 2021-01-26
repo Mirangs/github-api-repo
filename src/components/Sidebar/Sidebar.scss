@@ -1,0 +1,13 @@
+.page-sidebar {
+  grid-area: Sidebar;
+
+  .search-input {
+    padding: 10px;
+    border-radius: 20px;
+    width: 100%;
+  }
+
+  .search-history {
+    margin-bottom: 50px;
+  }
+}

@@ -1,0 +1,13 @@
+@import './scss//variables.scss';
+
+body {
+  background-color: $bgColor;
+  color: $textColor;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
